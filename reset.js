@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function(){
         );
 
         notificacion.onclick = function(){
-            window.open("http://localhost/proyectoFinal/principal.php");
+           // window.open.replace("http://localhost/proyectoFinal/principal.php", "_self");
+           location.replace("http://localhost/proyectoFinal/principal.php");
         }
 
     }
